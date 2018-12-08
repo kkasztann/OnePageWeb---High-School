@@ -1,2 +1,19 @@
-# OnePageWeb---High-School
-One Page Responsive Web [HTML5, CSS3, Bootstrap4 JS(ES6), jQuery]
+# One Page Web - High School
+Project description: One page fully responsive website for High School.
+
+## Tech Stack
+* HTML5
+* CSS3
+* JS ES6
+* jQuery
+
+## Framework
+* Bootstrap4
+
+## Librares
+* Animate.css
+* WOW.js
+* Smooth Scroll
+
+
+
