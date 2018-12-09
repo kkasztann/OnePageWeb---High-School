@@ -166,6 +166,13 @@ body {
 }
 
 /*----- Subjects Section  -----*/
+.subjectsSection {
+    color: #000;
+}
+
+.subjectsSectionHeader {
+    text-align: center;
+}
 
 .subjectCard {
     position: relative;
@@ -173,6 +180,7 @@ body {
     height: 450px;
     padding: 10px;
     margin-bottom: 35px;
+    margin-top: 20px;
     -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
     -webkit-transition: all .2s ease-in;
@@ -201,7 +209,6 @@ body {
 }
 
 .subjectCard .card-text {
-    color: black;
     bottom: 0;
     padding: 40px;
 }
