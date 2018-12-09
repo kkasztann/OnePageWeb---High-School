@@ -132,3 +132,21 @@ body {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
 }
+
+
+/*----- Professor Section  -----*/
+
+.professorSection {
+    background: linear-gradient(rgba(38, 222, 129, 0.85), rgba(38, 222, 129, 0.85)), url(../img/slide1-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.professorSection .contentLeft {
+    /* background-color: green; */
+}
+
+.professorSection .contentRight {
+/* background-color: red; */
+}
