@@ -1,3 +1,84 @@
 body {
     background-color: green;
+    color: white;
+}
+
+
+/*----- Slider Section  -----*/
+#sliderTop,
+#sliderTop img {
+    height: 100vh;
+}
+
+#sliderTop .slide1 {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(/img/slide1-bg.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(/img/slide1-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sliderTop .slide2 {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(/img/slide2-bg.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(/img/slide2-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sliderTop .slide3 {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(/img/slide3-bg.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(/img/slide3-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sliderTop .slideInfoLeft {
+    margin-left: 20px;
+}
+
+#sliderTop .slideInfoRight img {
+    position: absolute;
+    height: 80vh;
+    top: 0;
+    right: 0;
+
+}
+
+#sliderTop .carousel-indicators li.active {
+    background-color: lime;
+}
+
+#sliderTop .carousel-indicators li {
+    width: 9px;
+    height: 9px;
+    border-radius: 3px;
+    margin: 6px;
+    background-color: #fff;
+}
+
+#sliderTop .carousel-control {
+    width: 24px;
+    height: 24px;
+}
+
+#sliderTop .arrow {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50vh;
+}
+
+#sliderTop .arrow-prev {
+    left: 5vw;
+}
+
+#sliderTop .arrow-next {
+    right: 5vw;
+}
+
+#sliderTop .arrow img {
+    width: 24px;
+    height: 24px;
 }
