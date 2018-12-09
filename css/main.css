@@ -1,8 +1,22 @@
+/* Color palete: https://flatuicolors.com/palette/de */
+
+
+/*----- Common code  -----*/
 body {
-    background-color: green;
+    background-color: #d1d8e0;
     color: white;
 }
 
+.separator {
+    width: 60px;
+    height: 1px;
+    background: #26de81;
+    margin: 30px auto;
+}
+
+.sectionPadding {
+    margin-top: 60px;
+}
 
 /*----- Slider Section  -----*/
 #sliderTop,
@@ -47,7 +61,7 @@ body {
 }
 
 #sliderTop .carousel-indicators li.active {
-    background-color: lime;
+    background-color: #26de81;
 }
 
 #sliderTop .carousel-indicators li {
@@ -55,7 +69,7 @@ body {
     height: 9px;
     border-radius: 3px;
     margin: 6px;
-    background-color: #fff;
+    background-color: #778ca3;
 }
 
 #sliderTop .carousel-control {
@@ -81,4 +95,18 @@ body {
 #sliderTop .arrow img {
     width: 24px;
     height: 24px;
+}
+
+/*----- Benefits Section  -----*/
+
+.benefitsSection {
+    color: #000;
+}
+
+.benefitsSectionHeader {
+    text-align: center;
+}
+
+.benefitsSectionContent {
+    text-align: center;
 }
