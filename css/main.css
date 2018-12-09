@@ -1,3 +1,10 @@
 body {
     background-color: green;
 }
+
+
+/*----- Slider Section  -----*/
+#sliderTop,
+#sliderTop img {
+    height: 100vh;
+}
