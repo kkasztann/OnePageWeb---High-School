@@ -137,6 +137,7 @@ body {
 /*----- Professor Section  -----*/
 
 .professorSection {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 222, 129, 0.85)), to(rgba(38, 222, 129, 0.85))), url(/img/professor-bg.jpg);
     background: linear-gradient(rgba(38, 222, 129, 0.85), rgba(38, 222, 129, 0.85)), url(/img/professor-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -162,4 +163,97 @@ body {
     top: 0;
     right: 0;
 
+}
+
+/*----- Subjects Section  -----*/
+.subjectsSection {
+    color: #000;
+}
+
+.subjectsSectionHeader {
+    text-align: center;
+}
+
+.subjectCard {
+    position: relative;
+    background-color: #fff;
+    height: 450px;
+    padding: 10px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.subjectCard:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.subjectCard .card-img,
+.subjectCard .card-text {
+    position: absolute;
+    height: 230px;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+.subjectCard .card-img {
+    top: 0;
+    background-size: cover;
+}
+
+.subjectCard .card-text {
+    bottom: 0;
+    padding: 40px;
+}
+
+.card-text p {
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.card-text a {
+    color: #26de81;
+    font-weight: bold;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.card-text a:hover {
+    color: #eb3b5a;
+}
+
+.programming {
+    background: url(../img/programming.jpg);
+}
+
+.chemistry {
+    background: url(../img/chemistry.jpg);
+}
+
+.biology {
+    background: url(../img/biology.jpg);
+}
+
+.history {
+    background: url(../img/history.jpg);
+}
+
+.geography {
+    background: url(../img/geography.jpg);
+}
+
+.mathematics {
+    background: url(../img/mathematics.jpg);
+}
+
+.see-more {
+    display: block;
+    margin: 25px auto 0 auto;
 }
