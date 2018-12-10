@@ -399,3 +399,50 @@ footer .footer-copyright {
     padding: 20px 0;
     margin-top: 10px;
 }
+
+/*----- Nav -----*/
+nav {
+    background-color: transparent;
+}
+
+nav ul li a.active {
+    color: #26de81 !important;
+    font-weight: 700;
+}
+
+.nav-bg {
+    background-color: #727272;
+}
+
+.nav-small {
+    font-size: 18px !important;
+    transition: font-size .8s;
+}
+
+.navbar-brand {
+    margin-right: 80px;
+    color: #26de81 !important;
+}
+
+.navbar-brand i:hover,
+.navbar-brand:hover {
+    color: #fff !important;
+}
+
+.navbar-brand i {
+    font-size: 64px;
+}
+
+.navbar-nav {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 22px;
+    transition: font-size 2s;
+}
+
+@media screen and (max-height: 800px) {
+    .navbar-nav {
+        position: static;
+    }
+}
