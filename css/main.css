@@ -401,13 +401,22 @@ footer .footer-copyright {
 }
 
 /*----- Nav -----*/
-
 nav {
     background-color: transparent;
 }
 
+nav ul li a.active {
+    color: #26de81 !important;
+    font-weight: 700;
+}
+
 .nav-bg {
     background-color: #727272;
+}
+
+.nav-small {
+    font-size: 18px !important;
+    transition: font-size .8s;
 }
 
 .navbar-brand {
@@ -429,15 +438,11 @@ nav {
     top: 5px;
     right: 20px;
     font-size: 22px;
+    transition: font-size 2s;
 }
 
 @media screen and (max-height: 800px) {
     .navbar-nav {
         position: static;
     }
-}
-
-nav ul li a.active {
-    color: #26de81 !important;
-    font-weight: 700;
 }
