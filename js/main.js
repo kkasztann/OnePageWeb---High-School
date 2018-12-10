@@ -1,7 +1,10 @@
 $(document).ready(function () {
 
+    // Light Gallery
     $("#lightgallery").lightGallery();
 
+
+    // Nav Background
     $(window).scroll(function () {
         if ($(window).scrollTop() >= 120) {
             $('nav').addClass('nav-bg');
@@ -15,5 +18,8 @@ $(document).ready(function () {
         $('nav').addClass('nav-bg');
     }
 
+
+    // Smooth Scroll
+    var scroll = new SmoothScroll('a[href*="#"]');
 
 });
