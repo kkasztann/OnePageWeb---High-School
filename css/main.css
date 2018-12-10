@@ -39,6 +39,57 @@ textarea {
     resize: none;
 }
 
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #26de81;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button {
+    text-align: center;
+    width: 220px;
+    height: 44px;
+    color: #fff;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 44px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.button-primary {
+    background: linear-gradient(120deg, #26de81 0%, #23d789 50%, #50ca8d 50%, #50ca8d 53%, #21f89b 53%);
+    background-size: 220%;
+    background-position: 0;
+    border-color: #21f89b;
+}
+
+.button-primary:hover {
+    background-position: 100%;
+    border-color: #32faa3;
+    cursor: pointer;
+}
+
+.button-secondary {
+    background: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(255, 255, 255, .7) 50%, rgba(255, 255, 255, .7) 53%, #fff 53%);
+    background-size: 220%;
+    background-position: 0;
+    border-color: #fff;
+}
+
+.button-secondary:hover {
+    color: #26de81;
+    background-position: 100%;
+    cursor: pointer;
+}
+
 
 /*----- Slider Section  -----*/
 #sliderTop,
@@ -248,6 +299,7 @@ textarea {
 
 .card-text a:hover {
     color: #eb3b5a;
+    cursor: pointer;
 }
 
 .programming {
@@ -335,6 +387,12 @@ textarea {
     margin: 4px;
 }
 
+.gallerySection img:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+
+}
+
 
 /*----- Contact Section  -----*/
 .contactSection {
@@ -363,6 +421,11 @@ textarea {
     font-size: 14px;
 }
 
+.contactSection button {
+    display: block;
+    margin: 25px auto 50px auto;
+}
+
 .contactForm .form input,
 .contactForm .form textarea {
     width: 100%;
@@ -389,8 +452,23 @@ footer .footerContentSocial {
 }
 
 footer .footerContentSocial i:hover {
-    color: #26de81;
     cursor: pointer;
+}
+
+footer .footerContentSocial .fb:hover {
+    color: #3b5998;
+}
+
+footer .footerContentSocial .tw:hover {
+    color: #00aced;
+}
+
+footer .footerContentSocial .ig:hover {
+    color: #8a3ab9;
+}
+
+footer .footerContentSocial .yt:hover {
+    color: #cc181e
 }
 
 footer .footer-copyright {
@@ -416,6 +494,7 @@ nav ul li a.active {
 
 .nav-small {
     font-size: 18px !important;
+    -webkit-transition: font-size .8s;
     transition: font-size .8s;
 }
 
@@ -438,6 +517,7 @@ nav ul li a.active {
     top: 5px;
     right: 20px;
     font-size: 22px;
+    -webkit-transition: font-size 2s;
     transition: font-size 2s;
 }
 
