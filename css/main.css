@@ -399,3 +399,41 @@ footer .footer-copyright {
     padding: 20px 0;
     margin-top: 10px;
 }
+
+/*----- Nav -----*/
+
+nav {
+    background-color: transparent;
+}
+
+.nav-bg {
+    background-color: #727272;
+}
+
+.navbar-brand {
+    margin-right: 80px;
+    color: #26de81 !important;
+}
+
+.navbar-brand i:hover,
+.navbar-brand:hover {
+    color: #fff !important;
+}
+
+.navbar-brand i {
+    font-size: 64px;
+}
+
+.navbar-nav {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 22px;
+}
+
+@media screen and (max-height: 800px) {
+    .navbar-nav {
+        position: static;
+    }
+
+}
