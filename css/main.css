@@ -258,6 +258,7 @@ body {
     margin: 25px auto 0 auto;
 }
 
+
 /*----- Gradues Section  -----*/
 .graduesSection {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/gradues-bg.jpg) fixed;
@@ -295,4 +296,20 @@ body {
     background-size: cover;
     -webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+/*----- Gallery Section  -----*/
+.gallerySection {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallerySectionHeader h1 {
+    color: #000;
+}
+
+.gallerySection img {
+    width: 150px;
+    margin: 4px;
 }
