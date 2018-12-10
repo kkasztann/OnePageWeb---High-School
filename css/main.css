@@ -299,6 +299,7 @@ a:hover {
 
 .card-text a:hover {
     color: #eb3b5a;
+    cursor: pointer;
 }
 
 .programming {
@@ -386,6 +387,12 @@ a:hover {
     margin: 4px;
 }
 
+.gallerySection img:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+
+}
+
 
 /*----- Contact Section  -----*/
 .contactSection {
@@ -451,12 +458,15 @@ footer .footerContentSocial i:hover {
 footer .footerContentSocial .fb:hover {
     color: #3b5998;
 }
+
 footer .footerContentSocial .tw:hover {
     color: #00aced;
 }
+
 footer .footerContentSocial .ig:hover {
     color: #8a3ab9;
 }
+
 footer .footerContentSocial .yt:hover {
     color: #cc181e
 }
@@ -484,6 +494,7 @@ nav ul li a.active {
 
 .nav-small {
     font-size: 18px !important;
+    -webkit-transition: font-size .8s;
     transition: font-size .8s;
 }
 
@@ -506,6 +517,7 @@ nav ul li a.active {
     top: 5px;
     right: 20px;
     font-size: 22px;
+    -webkit-transition: font-size 2s;
     transition: font-size 2s;
 }
 
