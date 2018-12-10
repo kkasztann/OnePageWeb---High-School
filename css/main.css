@@ -46,8 +46,8 @@ a {
 a:hover {
     color: #26de81;
     text-decoration: none;
+    font-weight: 700;
 }
-
 
 .button {
     text-align: center;
@@ -89,7 +89,6 @@ a:hover {
     background-position: 100%;
     cursor: pointer;
 }
-
 
 
 /*----- Slider Section  -----*/
@@ -446,8 +445,20 @@ footer .footerContentSocial {
 }
 
 footer .footerContentSocial i:hover {
-    color: #26de81;
     cursor: pointer;
+}
+
+footer .footerContentSocial .fb:hover {
+    color: #3b5998;
+}
+footer .footerContentSocial .tw:hover {
+    color: #00aced;
+}
+footer .footerContentSocial .ig:hover {
+    color: #8a3ab9;
+}
+footer .footerContentSocial .yt:hover {
+    color: #cc181e
 }
 
 footer .footer-copyright {
