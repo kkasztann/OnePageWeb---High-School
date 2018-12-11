@@ -12,8 +12,6 @@ Project description: One page fully responsive website for High School.
 
 ## Librares
 * lightGallery
-* Animate.css
-* WOW.js
 * Smooth Scroll
 
 
