@@ -144,24 +144,24 @@ nav ul li a.active {
 
 #sliderTop .slide1 {
     height: 100vh;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(/img/slide1-bg.jpg);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(/img/slide1-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(../img/slide1-bg.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(../img/slide1-bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #sliderTop .slide2 {
     height: 100vh;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(/img/slide2-bg.jpg);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(/img/slide2-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(../img/slide2-bg.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(../img/slide2-bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #sliderTop .slide3 {
     height: 100vh;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(/img/slide3-bg.jpg);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(/img/slide3-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(12%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.95))), url(../img/slide3-bg.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 12%, rgba(0, 0, 0, 0.95) 100%), url(../img/slide3-bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -254,8 +254,8 @@ nav ul li a.active {
 
 /*----- Professor Section  -----*/
 .professorSection {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 222, 129, 0.85)), to(rgba(38, 222, 129, 0.85))), url(/img/professor-bg.jpg);
-    background: linear-gradient(rgba(38, 222, 129, 0.85), rgba(38, 222, 129, 0.85)), url(/img/professor-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 222, 129, 0.85)), to(rgba(38, 222, 129, 0.85))), url(../img/professor-bg.jpg);
+    background: linear-gradient(rgba(38, 222, 129, 0.85), rgba(38, 222, 129, 0.85)), url(../img/professor-bg.jpg);
     background-size: cover;
     background-position: center;
 }
