@@ -1,0 +1,80 @@
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1199px) {
+
+    /*----- Gradues Section  -----*/
+    .graduesSection {
+        text-align: center;
+    }
+
+    .graduesSection .leftContent .separator {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /*----- Nav  -----*/
+    nav {
+        background-color: #727272;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /*----- Slider Section  -----*/
+    #sliderTop .slideInfoLeft {
+        text-align: center;
+        font-size: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    /*----- Professor Section  -----*/
+    .professorSection {
+        text-align: center;
+    }
+
+    .professorSection .contentLeft .separator {
+        margin: 30px auto;
+    }
+
+    .professorSection .content {
+        height: auto;
+        padding: 20px;
+    }
+
+    /*----- Footer  -----*/
+    footer .footerContent {
+        font-size: 10px;
+    }
+
+    footer .footerContent ul,
+    footer .footerHeader h5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.3em;
+    }
+
+    /*----- Footer -----*/
+    footer .footerContent {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    footer .footerContent ul,
+    footer .footerHeader h5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {}
